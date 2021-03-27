@@ -757,7 +757,7 @@ func (cfg *Cfg) Load(args *CommandLineArgs) error {
 
 	cfg.ErrTemplateName = "error"
 
-	ApplicationName = "Grafana"
+	ApplicationName = "AirMon"
 
 	Env = valueAsString(iniFile.Section(""), "app_mode", "development")
 	cfg.Env = Env

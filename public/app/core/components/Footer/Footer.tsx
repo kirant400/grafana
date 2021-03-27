@@ -11,7 +11,7 @@ export interface FooterLink {
 
 export let getFooterLinks = (): FooterLink[] => {
   return [
-    {
+  /*  {
       text: 'Documentation',
       icon: 'document-info',
       url: 'https://grafana.com/docs/grafana/latest/?utm_source=grafana_footer',
@@ -28,7 +28,7 @@ export let getFooterLinks = (): FooterLink[] => {
       icon: 'comments-alt',
       url: 'https://community.grafana.com/?utm_source=grafana_footer',
       target: '_blank',
-    },
+    },*/
   ];
 };
 
